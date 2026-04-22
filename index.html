@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoMarket Digital — Sustainable Products for a Better Future</title>
+    <meta name="description" content="EcoMarket Digital offers premium eco-friendly products and sustainable services for a greener tomorrow." />
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome 6 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top eco-navbar">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+          <span class="brand-icon"><i class="fa-solid fa-leaf"></i></span>
+          <span class="brand-text">EcoMarket <span class="brand-accent">Digital</span></span>
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#multimedia">About</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn eco-btn-nav" href="#contact">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- ===================== HERO SECTION — Carousel/Slider ===================== -->
+    <section id="home">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <!-- Slide Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="hero-slide" style="background-image: url('https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+              <div class="hero-overlay"></div>
+              <div class="container hero-content text-center text-white">
+                <span class="hero-badge">100% Eco Certified</span>
+                <h1 class="hero-title">Sustainable Products<br />for a Better Future</h1>
+                <p class="hero-subtitle">Discover our curated collection of planet-friendly goods — crafted with care for people, communities, and the Earth.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                  <a href="#products" class="btn eco-btn-hero">Shop Products <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                  <a href="#services" class="btn eco-btn-hero-outline">Our Services</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="hero-slide" style="background-image: url('https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+              <div class="hero-overlay"></div>
+              <div class="container hero-content text-center text-white">
+                <span class="hero-badge">Sustainably Sourced</span>
+                <h1 class="hero-title">Green Living<br />Starts Here</h1>
+                <p class="hero-subtitle">Every purchase contributes to reforestation programs and supports local artisan communities worldwide.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                  <a href="#products" class="btn eco-btn-hero">Explore Now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                  <a href="#contact" class="btn eco-btn-hero-outline">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="hero-slide" style="background-image: url('https://images.pexels.com/photos/2990650/pexels-photo-2990650.jpeg?auto=compress&cs=tinysrgb&w=1600');">
+              <div class="hero-overlay"></div>
+              <div class="container hero-content text-center text-white">
+                <span class="hero-badge">Zero Waste Mission</span>
+                <h1 class="hero-title">Shop Responsibly,<br />Live Sustainably</h1>
+                <p class="hero-subtitle">From biodegradable packaging to carbon-neutral shipping — sustainability is built into everything we do.</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                  <a href="#products" class="btn eco-btn-hero">Start Shopping <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                  <a href="#multimedia" class="btn eco-btn-hero-outline">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Prev/Next Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- ===================== STATS STRIP ===================== -->
+    <section class="stats-strip">
+      <div class="container">
+        <div class="row g-0 text-center">
+          <div class="col-6 col-md-3 stat-item">
+            <span class="stat-number" data-target="12000">0</span><span class="stat-suffix">+</span>
+            <p class="stat-label">Happy Customers</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <span class="stat-number" data-target="320">0</span><span class="stat-suffix">+</span>
+            <p class="stat-label">Eco Products</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+            <p class="stat-label">Satisfaction Rate</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <span class="stat-number" data-target="45">0</span><span class="stat-suffix">k</span>
+            <p class="stat-label">Trees Planted</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END STATS -->
+
+    <!-- ===================== PRODUCTS SECTION ===================== -->
+    <section id="products" class="section-padding">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Our Collection</span>
+          <h2 class="section-title">Featured <span class="text-eco">Eco Products</span></h2>
+          <p class="section-subtitle">Every item is certified sustainable, ethically manufactured, and packaged with zero-waste materials.</p>
+        </div>
+
+        <!-- Product Cards -->
+        <div class="row g-4">
+
+          <!-- Product 1 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/4397290/pexels-photo-4397290.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Bamboo Water Bottle" />
+                <span class="product-badge">Best Seller</span>
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Hydration</span>
+                <h5 class="card-title product-name">Bamboo Water Bottle</h5>
+                <p class="card-text product-desc">Double-walled bamboo bottle, BPA-free, keeps drinks cold 24h and hot 12h.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="product-price">$28.99</span>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                      <small class="ms-1">(142)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/5591664/pexels-photo-5591664.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Organic Cotton Tote" />
+                <span class="product-badge new-badge">New</span>
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Accessories</span>
+                <h5 class="card-title product-name">Organic Cotton Tote</h5>
+                <p class="card-text product-desc">GOTS-certified organic cotton tote — durable, washable, and completely plastic-free.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="product-price">$14.50</span>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      <small class="ms-1">(87)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/6483582/pexels-photo-6483582.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Beeswax Food Wraps" />
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Kitchen</span>
+                <h5 class="card-title product-name">Beeswax Food Wraps</h5>
+                <p class="card-text product-desc">Reusable beeswax wraps — the perfect plastic-wrap alternative. Set of 3 sizes.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="product-price">$19.99</span>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                      <small class="ms-1">(203)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/3621168/pexels-photo-3621168.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Portable Solar Lantern" />
+                <span class="product-badge sale-badge">Sale</span>
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Energy</span>
+                <h5 class="card-title product-name">Portable Solar Lantern</h5>
+                <p class="card-text product-desc">Foldable solar-powered LED lantern — ideal for camping, hiking, or power outages.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div>
+                      <span class="product-price">$34.99</span>
+                      <span class="product-price-old ms-2">$49.99</span>
+                    </div>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                      <small class="ms-1">(56)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/5591458/pexels-photo-5591458.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Compostable Cutlery Set" />
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Kitchen</span>
+                <h5 class="card-title product-name">Compostable Cutlery Set</h5>
+                <p class="card-text product-desc">100% plant-based cutlery (50 pieces). Fully compostable in 90 days — zero guilt.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="product-price">$12.99</span>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                      <small class="ms-1">(178)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="card product-card h-100">
+              <div class="product-img-wrap">
+                <img src="https://images.pexels.com/photos/4226896/pexels-photo-4226896.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Artisan Natural Soap" />
+                <span class="product-badge">Popular</span>
+                <div class="product-overlay">
+                  <button class="btn btn-sm overlay-btn" title="Wishlist"><i class="fa-solid fa-heart"></i></button>
+                  <button class="btn btn-sm overlay-btn" title="Quick View"><i class="fa-solid fa-eye"></i></button>
+                </div>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <span class="product-category">Personal Care</span>
+                <h5 class="card-title product-name">Artisan Natural Soap</h5>
+                <p class="card-text product-desc">Cold-pressed organic soap with essential oils. No sulfates, no parabens — just nature.</p>
+                <div class="mt-auto">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <span class="product-price">$9.99</span>
+                    <div class="product-stars">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      <small class="ms-1">(321)</small>
+                    </div>
+                  </div>
+                  <button class="btn eco-btn-card w-100">Buy Now <i class="fa-solid fa-cart-shopping ms-1"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- End Product Row -->
+
+        <!-- View All CTA -->
+        <div class="text-center mt-5">
+          <a href="#" class="btn eco-btn-outline-lg">View All Products <i class="fa-solid fa-arrow-right ms-2"></i></a>
+        </div>
+
+      </div>
+    </section>
+    <!-- END PRODUCTS -->
+
+    <!-- ===================== SERVICES SECTION ===================== -->
+    <section id="services" class="section-padding services-section">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">Our <span class="text-eco">Sustainable Services</span></h2>
+          <p class="section-subtitle">We go beyond products. Our expert team helps businesses and individuals build a truly sustainable future.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- Service 1: Environmental Consulting -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon-wrap">
+                <i class="fa-solid fa-seedling service-icon"></i>
+              </div>
+              <h4 class="service-title">Environmental Consulting</h4>
+              <p class="service-desc">Our certified consultants help companies assess their ecological footprint and craft sustainability roadmaps that meet global ESG standards.</p>
+              <ul class="service-list text-start">
+                <li><i class="fa-solid fa-check"></i> Carbon footprint analysis</li>
+                <li><i class="fa-solid fa-check"></i> ESG compliance reports</li>
+                <li><i class="fa-solid fa-check"></i> Green certification support</li>
+              </ul>
+              <a href="#contact" class="btn eco-btn-service mt-3">Learn More</a>
+            </div>
+          </div>
+
+          <!-- Service 2: Sustainable Distribution (Featured) -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card service-card--featured text-center h-100">
+              <span class="service-featured-label">Most Popular</span>
+              <div class="service-icon-wrap featured">
+                <i class="fa-solid fa-truck-fast service-icon"></i>
+              </div>
+              <h4 class="service-title">Sustainable Distribution</h4>
+              <p class="service-desc">We operate a carbon-neutral supply chain using electric fleets and optimized routing to deliver eco-friendly goods with minimal environmental impact.</p>
+              <ul class="service-list text-start">
+                <li><i class="fa-solid fa-check"></i> Carbon-neutral shipping</li>
+                <li><i class="fa-solid fa-check"></i> Zero-waste packaging</li>
+                <li><i class="fa-solid fa-check"></i> Real-time eco impact tracking</li>
+              </ul>
+              <a href="#contact" class="btn eco-btn-service-white mt-3">Learn More</a>
+            </div>
+          </div>
+
+          <!-- Service 3: Eco Advisory -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon-wrap">
+                <i class="fa-solid fa-earth-americas service-icon"></i>
+              </div>
+              <h4 class="service-title">Eco Advisory</h4>
+              <p class="service-desc">Personal and corporate eco advisory sessions to transform everyday habits and business practices into sustainable, cost-efficient, climate-positive actions.</p>
+              <ul class="service-list text-start">
+                <li><i class="fa-solid fa-check"></i> 1-on-1 eco coaching</li>
+                <li><i class="fa-solid fa-check"></i> Team sustainability workshops</li>
+                <li><i class="fa-solid fa-check"></i> Green procurement strategy</li>
+              </ul>
+              <a href="#contact" class="btn eco-btn-service mt-3">Learn More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- ===================== MULTIMEDIA SECTION ===================== -->
+    <section id="multimedia" class="section-padding">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">See &amp; Discover</span>
+          <h2 class="section-title">Our Story in <span class="text-eco">Pictures &amp; Video</span></h2>
+          <p class="section-subtitle">Watch how we're making a difference and explore the beauty of sustainable living through our gallery.</p>
+        </div>
+
+        <!-- YouTube Video Embed -->
+        <div class="row mb-5">
+          <div class="col-lg-8 mx-auto">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/hpZFJctBUHQ?rel=0&modestbranding=1"
+                title="Our Planet — Sustainability in Action"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <p class="text-center text-muted mt-3 small">Our commitment to a sustainable planet</p>
+          </div>
+        </div>
+
+        <!-- Image Gallery — Grid Layout -->
+        <div class="row g-3 gallery-grid">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/1656564/pexels-photo-1656564.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sustainable forest" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Green leaves" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/2255903/pexels-photo-2255903.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Eco market" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Eco packaging" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Organic products" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sustainable lifestyle" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/2990650/pexels-photo-2990650.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nature market" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/1029243/pexels-photo-1029243.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Green living" class="gallery-img" />
+              <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- END MULTIMEDIA -->
+
+    <!-- ===================== TESTIMONIALS (Carousel) ===================== -->
+    <section class="section-padding testimonials-section">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">Community Voices</span>
+          <h2 class="section-title">What Our <span class="text-eco">Customers Say</span></h2>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                  <div class="testimonial-card text-center">
+                    <i class="fa-solid fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">"EcoMarket Digital changed how our company thinks about procurement. Their consulting team is world-class and the products are genuinely sustainable — not just greenwashed."</p>
+                    <div class="testimonial-stars mb-2">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <strong class="testimonial-name">Sarah M.</strong>
+                    <span class="testimonial-role d-block">CEO, GreenPath Corp</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                  <div class="testimonial-card text-center">
+                    <i class="fa-solid fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">"The bamboo bottle is incredible — I've used it daily for two years and it's still perfect. Free returns and carbon-neutral shipping sealed the deal for me."</p>
+                    <div class="testimonial-stars mb-2">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <strong class="testimonial-name">James R.</strong>
+                    <span class="testimonial-role d-block">Environmental Blogger</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                  <div class="testimonial-card text-center">
+                    <i class="fa-solid fa-quote-left testimonial-quote"></i>
+                    <p class="testimonial-text">"Their Eco Advisory service helped our school district cut plastic waste by 70% in one semester. The team is passionate, knowledgeable, and results-driven."</p>
+                    <div class="testimonial-stars mb-2">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <strong class="testimonial-name">Linda T.</strong>
+                    <span class="testimonial-role d-block">School District Coordinator</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Testimonial dot indicators -->
+          <div class="carousel-indicators position-relative mt-4">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active testimonial-dot" aria-label="Testimonial 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="testimonial-dot" aria-label="Testimonial 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="testimonial-dot" aria-label="Testimonial 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIALS -->
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+
+          <!-- Contact Info Column -->
+          <div class="col-lg-5">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title mt-2">Let's Build a <span class="text-eco">Greener Future</span> Together</h2>
+            <p class="mt-3 mb-4 contact-intro">Have questions about our products or services? Our sustainability experts are ready to guide you. Fill out the form and we'll respond within 24 hours.</p>
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <strong>Address</strong>
+                  <p>123 Green Boulevard, Suite 400<br />San Francisco, CA 94105</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <strong>Phone</strong>
+                  <p>+1 (800) 326-7463</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <strong>Email</strong>
+                  <p>hello@ecomarketdigital.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <h4 class="mb-4">Send Us a Message</h4>
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <!-- Name -->
+                  <div class="col-sm-6">
+                    <label for="inputName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control eco-input" id="inputName" placeholder="Jane Doe" required />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <!-- Email -->
+                  <div class="col-sm-6">
+                    <label for="inputEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control eco-input" id="inputEmail" placeholder="jane@example.com" required />
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                  </div>
+                  <!-- Subject -->
+                  <div class="col-12">
+                    <label for="inputSubject" class="form-label">Subject</label>
+                    <select class="form-select eco-input" id="inputSubject">
+                      <option value="">Choose a topic…</option>
+                      <option>Product Inquiry</option>
+                      <option>Environmental Consulting</option>
+                      <option>Sustainable Distribution</option>
+                      <option>Eco Advisory</option>
+                      <option>Partnership Opportunity</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <!-- Message -->
+                  <div class="col-12">
+                    <label for="inputMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                    <textarea class="form-control eco-input" id="inputMessage" rows="5" placeholder="Tell us how we can help…" required></textarea>
+                    <div class="invalid-feedback">Please enter your message.</div>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="col-12">
+                    <button type="submit" class="btn eco-btn-submit w-100">
+                      <span class="btn-text">Send Message <i class="fa-solid fa-paper-plane ms-2"></i></span>
+                      <span class="btn-loading d-none"><i class="fa-solid fa-spinner fa-spin me-2"></i>Sending…</span>
+                    </button>
+                  </div>
+                  <!-- Success Alert -->
+                  <div class="col-12 d-none" id="formSuccess">
+                    <div class="alert alert-success d-flex align-items-center gap-2 mb-0">
+                      <i class="fa-solid fa-circle-check fs-5"></i>
+                      <span>Thank you! Your message has been sent. We'll be in touch soon.</span>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="eco-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row g-4">
+
+            <!-- Brand Column -->
+            <div class="col-lg-4">
+              <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+                <span class="brand-icon"><i class="fa-solid fa-leaf"></i></span>
+                <span class="brand-text text-white">EcoMarket <span class="brand-accent">Digital</span></span>
+              </div>
+              <p class="footer-about">We're on a mission to make sustainable living accessible, affordable, and beautiful. Every purchase plants a tree and supports a community.</p>
+              <!-- Social Icons -->
+              <div class="social-icons mt-4">
+                <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-btn" aria-label="Twitter X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-6 col-lg-2">
+              <h6 class="footer-heading">Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#multimedia">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-6 col-lg-2">
+              <h6 class="footer-heading">Services</h6>
+              <ul class="footer-links">
+                <li><a href="#services">Eco Consulting</a></li>
+                <li><a href="#services">Distribution</a></li>
+                <li><a href="#services">Eco Advisory</a></li>
+                <li><a href="#">CSR Reports</a></li>
+                <li><a href="#">Certifications</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4">
+              <h6 class="footer-heading">Contact Info</h6>
+              <ul class="footer-contact">
+                <li><i class="fa-solid fa-location-dot"></i>123 Green Boulevard, Suite 400, San Francisco, CA 94105</li>
+                <li><i class="fa-solid fa-phone"></i>+1 (800) 326-7463</li>
+                <li><i class="fa-solid fa-envelope"></i>hello@ecomarketdigital.com</li>
+                <li><i class="fa-solid fa-clock"></i>Mon–Fri: 9:00 AM – 6:00 PM PST</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+          <p class="mb-0">&copy; 2026 EcoMarket Digital. All rights reserved.</p>
+          <p class="mb-0 footer-legal">
+            <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
+            <a href="#">Terms of Service</a> &nbsp;|&nbsp;
+            <a href="#">Cookie Policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
